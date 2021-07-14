@@ -1,5 +1,5 @@
+const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
-const ObjectId = Schema.ObjectId;
 
 const ProductSchema = new Schema({
   coverImage: String,
@@ -14,4 +14,4 @@ const ProductSchema = new Schema({
   headingtext3: String,
 });
 
-module.exports = mongoose.model('Product', ProductSchema)
+module.exports = mongoose.model('Product', ProductSchema);
